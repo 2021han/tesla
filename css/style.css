@@ -16,12 +16,14 @@ a {
 }
 
 body {
-  background-color: #555;
+  width: 100%;
+  height: 100vh;
+  background-color: #19191b;
 }
 
 header {
   width: 350px;
-  height: 100%;
+  height: 100vh;
   position: absolute;
   top: 0px;
   left: 0px;
@@ -153,6 +155,60 @@ section article.on .slogan h2::after {
 }
 section article.lower {
   z-index: 2;
+}
+
+#visual {
+  width: 100%;
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+#visual .inner {
+  width: 100%;
+  height: 300px;
+  margin: 6px;
+  position: absolute;
+  top: 960px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#visual .inner article .pic1 {
+  float: left;
+  width: 33%;
+  height: 300px;
+  background: linear-gradient(#181b24, #181b24);
+  font: 50px/1.6 "Jura";
+  color: #c7c3c3;
+  display: inline-block;
+  text-align: center;
+  padding: 50px;
+}
+#visual .inner article .pic2 {
+  float: left;
+  width: 33%;
+  height: 300px;
+  background: linear-gradient(#111018, #181b24);
+  font: 50px/1.6 "Jura";
+  color: #c7c3c3;
+  display: inline-block;
+  text-align: center;
+  padding: 50px;
+}
+#visual .inner article .pic3 {
+  float: left;
+  width: 33%;
+  height: 300px;
+  background: linear-gradient(#181b24, #181b24);
+  font: 50px/1.6 "Jura";
+  color: #c7c3c3;
+  display: inline-block;
+  text-align: center;
+  padding: 50px;
+}
+#visual .inner article p {
+  font: 18px/1 "arial";
+  color: #fff;
 }
 
 /*# sourceMappingURL=style.css.map */
